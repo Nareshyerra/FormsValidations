@@ -8,8 +8,6 @@ import { SignupComponent } from './signup/signup.component';
 import { RegistraionComponent } from './registraion/registraion.component';
 import { JobsComponent } from './jobs/jobs.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { VijayComponent } from './vijay/vijay.component';
-import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
@@ -17,9 +15,8 @@ import { TestComponent } from './test/test.component';
     HomeComponent,
     SignupComponent,
     RegistraionComponent,
-    JobsComponent,
-    VijayComponent,
-    TestComponent
+    JobsComponent
+   
   ],
   imports: [
     BrowserModule,
