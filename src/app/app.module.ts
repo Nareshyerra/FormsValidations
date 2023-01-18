@@ -9,6 +9,7 @@ import { RegistraionComponent } from './registraion/registraion.component';
 import { JobsComponent } from './jobs/jobs.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { VijayComponent } from './vijay/vijay.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { VijayComponent } from './vijay/vijay.component';
     SignupComponent,
     RegistraionComponent,
     JobsComponent,
-    VijayComponent
+    VijayComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
