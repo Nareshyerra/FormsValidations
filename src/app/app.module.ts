@@ -9,6 +9,7 @@ import { RegistraionComponent } from './registraion/registraion.component';
 import { JobsComponent } from './jobs/jobs.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     SignupComponent,
     RegistraionComponent,
     JobsComponent
-   
+
   ],
   imports: [
     BrowserModule,
