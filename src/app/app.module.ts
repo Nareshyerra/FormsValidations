@@ -8,6 +8,7 @@ import { SignupComponent } from './signup/signup.component';
 import { RegistraionComponent } from './registraion/registraion.component';
 import { JobsComponent } from './jobs/jobs.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { VijayComponent } from './vijay/vijay.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HomeComponent,
     SignupComponent,
     RegistraionComponent,
-    JobsComponent
+    JobsComponent,
+    VijayComponent
   ],
   imports: [
     BrowserModule,
