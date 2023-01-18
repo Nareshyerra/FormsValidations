@@ -17,7 +17,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     SignupComponent,
     RegistraionComponent,
     JobsComponent,
-    
+
   ],
   imports: [
     BrowserModule,
